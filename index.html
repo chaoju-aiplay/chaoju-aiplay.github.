@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豆包潮剧数智人合集（原生头像版）</title>
+    <style>
+        /* 全局样式 - 豆包原生风格+潮剧元素融合 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "PingFang SC", "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa; /* 豆包默认背景色 */
+            padding: 30px 15px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        /* 标题区（突出豆包+潮剧） */
+        .title-section {
+            text-align: center;
+            margin-bottom: 35px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .title-section h1 {
+            color: #1677ff; /* 豆包主色 */
+            font-size: 28px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .title-section h1 i {
+            margin-right: 10px;
+            color: #d87093; /* 潮剧服饰辅助色 */
+        }
+        .title-section p {
+            color: #666;
+            font-size: 15px;
+        }
+        /* 数智人卡片容器（自适应布局） */
+        .bots-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        /* 豆包数智人卡片（匹配豆包原生样式） */
+        .bot-card {
+            background: #fff;
+            border-radius: 10px; /* 豆包卡片圆角 */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* 豆包轻阴影 */
+            transition: all 0.2s ease;
+            border: 1px solid #f0f0f0;
+        }
+        .bot-card:hover {
+            box-shadow: 0 4px 16px rgba(22, 119, 255, 0.12);
+            transform: translateY(-2px);
+        }
+        /* 豆包数智人头像（匹配原生尺寸+圆形） */
+        .bot-avatar {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%; /* 豆包数智人默认圆形头像 */
+            object-fit: cover;
+            margin: 0 auto 15px;
+            border: 2px solid #e8f3ff; /* 豆包头像淡蓝边框 */
+        }
+        /* 数智人名称（豆包字体风格） */
+        .bot-name {
+            font-size: 17px;
+            color: #333;
+            font-weight: 500;
+            margin-bottom: 6px;
+        }
+        /* 数智人简介（简洁说明） */
+        .bot-desc {
+            font-size: 13px;
+            color: #888;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+        /* 豆包风格聊天按钮（匹配原生按钮样式） */
+        .chat-btn {
+            display: inline-block;
+            width: 100%;
+            padding: 8px 0;
+            background-color: #1677ff;
+            color: #fff;
+            border-radius: 6px; /* 豆包按钮圆角 */
+            text-decoration: none;
+            font-size: 14px;
+            transition: background-color 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+        .chat-btn:hover {
+            background-color: #0f59c9; /* 豆包按钮hover色 */
+            color: #fff;
+        }
+        /* 底部说明（豆包数智人专属） */
+        .guide-footer {
+            margin-top: 40px;
+            padding: 15px 20px;
+            background: #e8f3ff; /* 豆包淡蓝提示色 */
+            border-radius: 8px;
+            color: #333;
+            font-size: 14px;
+        }
+        .guide-footer h3 {
+            color: #1677ff;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+        .guide-footer a {
+            color: #1677ff;
+            text-decoration: none;
+        }
+        .guide-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 标题区 -->
+        <div class="title-section">
+            <h1>📸 豆包潮剧数智人合集</h1>
+            <p>原生头像·一键聊天 | 潮剧角色专属数智人互动入口</p>
+        </div>
+
+        <!-- 数智人卡片区（每个数智人1个卡片，匹配豆包原生头像） -->
+        <div class="bots-container">
+            <!-- 彤管(小红) - 豆包数智人原生头像 -->
+            <div class="bot-card">
+                <!-- 豆包数智人头像链接：直接用数智人页面头像（自动匹配你制作的数智人头像） -->
+                <img class="bot-avatar" src="https://www.doubao.com/bot/WrNJ3W8f/avatar" alt="彤管(小红)头像">
+                <div class="bot-name">彤管(小红)</div>
+                <div class="bot-desc">双娇公主 | 潮剧经典角色</div>
+                <a href="https://www.doubao.com/bot/WrNJ3W8f" class="chat-btn" target="_blank">进入豆包聊天</a>
+            </div>
+
+            <!-- 双娇 - 豆包数智人原生头像 -->
+            <div class="bot-card">
+                <img class="bot-avatar" src="https://www.doubao.com/bot/Fh6VtsIW/avatar" alt="双娇头像">
+                <div class="bot-name">双娇</div>
+                <div class="bot-desc">爱慕张春郎的婢女</div>
+                <a href="https://www.doubao.com/bot/Fh6VtsIW" class="chat-btn" target="_blank">进入豆包聊天</a>
+            </div>
+
+            <!-- 长老法聪 - 豆包数智人原生头像 -->
+            <div class="bot-card">
+                <img class="bot-avatar" src="https://www.doubao.com/bot/E2BsdwJI/avatar" alt="长老法聪头像">
+                <div class="bot-name">长老法聪</div>
+                <div class="bot-desc">青云寺长老 | 慈悲睿智</div>
+                <a href="https://www.doubao.com/bot/E2BsdwJI" class="chat-btn" target="_blank">进入豆包聊天</a>
+            </div>
+
+            <!-- 阿僮 - 豆包数智人原生头像 -->
+            <div class="bot-card">
+                <img class="bot-avatar" src="https://www.doubao.com/bot/sw0BsGUq/avatar" alt="阿僮头像">
+                <div class="bot-name">阿僮</div>
+                <div class="bot-desc">忠诚书童 | 潮汕文化分享官</div>
+                <a href="https://www.doubao.com/bot/sw0BsGUq" class="chat-btn" target="_blank">进入豆包聊天</a>
+            </div>
+
+            <!-- 半空 - 豆包数智人原生头像 -->
+            <div class="bot-card">
+                <img class="bot-avatar" src="https://www.doubao.com/bot/u5Y9r0VC/avatar" alt="半空头像">
+                <div class="bot-name">半空</div>
+                <div class="bot-desc">张春郎挚友 | 青云寺僧人</div>
+                <a href="https://www.doubao.com/bot/u5Y9r0VC" class="chat-btn" target="_blank">进入豆包聊天</a>
+            </div>
+
+            <!-- 张春郎 - 豆包数智人原生头像 -->
+            <div class="bot-card">
+                <img class="bot-avatar" src="https://www.doubao.com/bot/JiSuwWQi/avatar" alt="张春郎头像">
+                <div class="bot-name">张春郎</div>
+                <div class="bot-desc">才华书生 | 重情好游</div>
+                <a href="https://www.doubao.com/bot/JiSuwWQi" class="chat-btn" target="_blank">进入豆包聊天</a>
+            </div>
+        </div>
+
+        <!-- 底部说明（豆包数智人专属，解决头像匹配问题） -->
+        <div class="guide-footer">
+            <h3>✨ 关键说明（确保头像与豆包数智人一致）</h3>
+            <p>1. 头像自动匹配：每个数智人的头像链接为 <code>https://www.doubao.com/bot/你的数智人ID/avatar</code>，会自动同步你在豆包制作的数智人头像，无需手动替换；</p>
+            <p>2. 链接有效性：按钮链接直接指向你创建的豆包数智人聊天页，点击即可直接互动；</p>
+            <p>3. 更新数智人：若在豆包修改了数智人的头像/人设，页面会自动同步更新，无需修改代码。</p>
+        </div>
+    </div>
+</body>
+</html>
